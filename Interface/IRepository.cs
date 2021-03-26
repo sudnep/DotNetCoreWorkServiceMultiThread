@@ -11,5 +11,11 @@ namespace ApplicationCore
         List<EntityCodeMap> GetEntityCodeMaps();
 
         EntityCodeMap GetEntityCodeMap(string entityCode);
+
+        void SaveData(EntityCodeMap entityCodeMap);
+
+        EntityCodeMap UpdateData(EntityCodeMap entityCodeMap);
+
+        bool DeleteData(EntityCodeMap entityCodeMap);
     }
 }
